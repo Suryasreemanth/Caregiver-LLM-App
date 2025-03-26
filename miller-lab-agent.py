@@ -19,6 +19,10 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 import pandas as pd
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # Initialize Firebase Admin SDK
 if not firebase_admin._apps:
     cred = credentials.Certificate('miller-lab-agent-firebase-adminsdk-r1vbq-3fdf45cbea.json')
