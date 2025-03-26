@@ -9,7 +9,7 @@ blinker==1.7.0
 cachetools==5.3.2
 certifi==2023.11.17
 charset-normalizer==3.3.2
-chromadb==0.6.3
+chromadb==0.4.24
 click==8.1.7
 coloredlogs==15.0.1
 dataclasses-json==0.5.14
