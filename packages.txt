@@ -1,0 +1,5 @@
+build-essential
+pkg-config
+default-libmysqlclient-dev
+libsqlite3-dev
+sqlite3
