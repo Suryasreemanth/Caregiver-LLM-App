@@ -75,3 +75,5 @@ uvicorn==0.27.0.post1
 validators==0.22.0
 watchdog==3.0.0
 websockets==12.0
+
+firebase-admin==6.1.0 
