@@ -38,7 +38,7 @@ jsonschema==4.21.1
 langchain==0.3.8
 langchain-core==0.3.21
 langchain_openai==0.3.8
-langsmith==0.3.18  # Version adjusted to be compatible
+langsmith==0.1.17  # Version adjusted to be compatible
 markdown-it-py==3.0.0
 MarkupSafe==2.1.4
 marshmallow==3.20.2
