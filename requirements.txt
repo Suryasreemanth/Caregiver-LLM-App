@@ -1,4 +1,4 @@
-# Core LangChain ecosystem (compatible versions)
+# Core LangChain ecosystem (pinned versions)
 langchain==0.1.14
 langchain-core==0.1.46
 langchain-community==0.0.34
@@ -7,19 +7,19 @@ langsmith==0.1.21
 langchainplus-sdk==0.1.1
 
 # Critical dependencies with exact versions
-packaging==23.2  # Must be <24.0 for langchain-core
+packaging==23.2  # Explicitly pinned to resolve conflict
 pydantic==2.6.4
 numpy==1.26.4
 PyMuPDF==1.24.0  # Provides fitz functionality
 
-# Streamlit and related
+# Streamlit and authentication
 streamlit==1.32.0
 streamlit-google-auth==1.1.0
 
-# Common ML/data dependencies
-pandas==2.2.1
+# OpenAI and data processing
 openai==1.12.0
 tiktoken==0.6.0
+pandas==2.2.1
 
 # Support packages
 python-dotenv==1.0.1
