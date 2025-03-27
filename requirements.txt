@@ -61,7 +61,7 @@ pysqlite3==0.4.6
 requests==2.31.0
 rich==13.7.0
 SQLAlchemy==2.0.25
-starlette==0.46.1
+starlette==0.20.4
 streamlit==1.31
 tenacity==8.2.3
 tiktoken==0.5.2
