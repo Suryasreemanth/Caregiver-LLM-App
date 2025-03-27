@@ -57,7 +57,6 @@ pydantic==1.9
 pydeck==0.8.1b0
 Pygments==2.17.2
 PyMuPDF==1.23.19
-pysqlite3==0.4.6
 requests==2.31.0
 rich==13.7.0
 SQLAlchemy==2.0.25
